@@ -1,6 +1,6 @@
 {
   "name": "react-beautiful-modals",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React beautiful modal",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -54,5 +54,4 @@
     "alert",
     "react"
   ]
-  
 }
