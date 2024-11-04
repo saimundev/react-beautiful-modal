@@ -22,7 +22,7 @@ export const Modal = ({
   onClose,
   children,
   size = "sm",
-  animationType = "fade",
+  animationType = "zoom",
   width,
   disableBackdropClick,
 }: IModal) => {
@@ -177,7 +177,7 @@ export const ModalFooter = ({ children }: IChildren) => {
 
 export const ModalCancelButton = ({
   children,
-  color = "primary",
+  color = "secondary",
   size = "sm",
   animationOnHover = "slide-up",
   disabled,
