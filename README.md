@@ -25,7 +25,7 @@ With yarn: `yarn add react-responsive-modal`
 With pnpm: `pnpm add react-responsive-modal`
 
 ## 2. Demo
-[React-multi-select-dropdown](https://multiselect-react-dropdown.vercel.app/?path=/docs/multiselect-dropdown--flat-array)
+[React-beautiful-modal](https://react-beautiful-modal.vercel.app/doc/installation)
 
 
 
