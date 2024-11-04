@@ -7,16 +7,22 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactjs/react-modal.git"
+    "url": "https://github.com/saimundev/react-beautiful-modal"
   },
-  "homepage": "https://github.com/reactjs/react-modal",
+  "homepage": "https://react-beautiful-modal.vercel.app/doc/installation",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c --bundleConfigAsCjs"
   },
   "keywords": [
-    "react",
-    "component"
+    "react-modal",
+    "modal",
+    "dialog",
+    "react-beautiful-modal",
+    "react-responsive-modal",
+    "react-component",
+    "alert",
+    "react"
   ],
   "author": "saimundev",
   "license": "ISC",
@@ -47,15 +53,6 @@
     "react-component",
     "alert",
     "react"
-  ],
-  "keywords": [
-    "react-modal",
-    "modal",
-    "dialog",
-    "react-beautiful-modal",
-    "react-responsive-modal",
-    "react-component",
-    "alert",
-    "react"
   ]
+  
 }
