@@ -90,52 +90,56 @@ export default App;
 
 ### Props
 
-| Prop                       | Description                                                               | Type              | Default      |
-| -------------------------- | ------------------------------------------------------------------------- | ----------------- | ------------ | ------ | ------- | --- |
-| **`open`**                 | Controls the visibility of the modal or modal content.                    | `boolean`         |              |
-| **`onClose`**              | Callback function to handle closing of the modal.                         | `() => void`      |              |
-| **`children`**             | Content to be displayed inside the component.                             | `React.ReactNode` |              |
-| **`size`**                 | Size of the modal.                                                        | `"sm"             | "md"         | "lg"`  | `"md"`  |
-| **`animationType`**        | Type of animation used for the modal.                                     | `"slide-up"       | "slide-down" | "fade" | "zoom"` |     |
-| **`width`**                | Custom width for the modal.                                               | `number`          |              |
-| **`disableBackdropClick`** | Disables closing the modal when clicking on the backdrop.                 | `boolean`         | `false`      |
-| **`customModalOverly`**    | Custom class name to apply additional styles or override existing styles. | `string`          | `""`         |
-| **`customModalContent`**   | Custom class name to apply additional styles or override existing styles. | `string`          |
+| Prop                       | Description                                                               | Type                              | Default   |
+| -------------------------- | ------------------------------------------------------------------------- | --------------------------------- | --------- |
+| **`open`**                 | Controls the visibility of the modal or modal content.                    | `boolean`                         |           |
+| **`onClose`**              | Callback function to handle closing of the modal.                         | `() => void`                      |           |
+| **`children`**             | Content to be displayed inside the component.                             | `React.ReactNode`                 |           |
+| **`size`**                 | Size of the modal.                                                        | `"sm" | "md" | "lg"`              | `"md"`    |
+| **`animationType`**        | Type of animation used for the modal.                                     | `"slide-up" | "slide-down" | "fade" | "zoom"` |           |
+| **`width`**                | Custom width for the modal.                                               | `number`                          |           |
+| **`disableBackdropClick`** | Disables closing the modal when clicking on the backdrop.                 | `boolean`                         | `false`   |
+| **`customModalOverly`**    | Custom class name to apply additional styles or override existing styles. | `string`                          | `""`      |
+| **`customModalContent`**   | Custom class name to apply additional styles or override existing styles. | `string`                          |           |
+
+---
 
 ## Title & Description Component
 
 ### Props
 
-| Prop                         | Description                                                               | Type              | Default   |
-| ---------------------------- | ------------------------------------------------------------------------- | ----------------- | --------- | -------- | ----- | ----- | ----- | ------ | ------- |
-| **`children`**               | Text content of the title.                                                | `React.ReactNode` |           |
-| **`fontSize`**               | Custom font size for the title.                                           | `string`          |           |
-| **`color`**                  | Color for the title.                                                      | `string`          |           |
-| **`textAlign`**              | Text alignment for the title.                                             | `"left"           | "center"` | `"left"` |
-| **`fontWidth`**              | Font weight for the title.                                                | `"300"            | "400"     | "500"    | "600" | "700" | "800" | "900"` | `"400"` |
-| **`customModalTitle`**       | Custom class name to apply additional styles or override existing styles. | `string`          | `""`      |
-| **`customModalDescription`** | Custom class name to apply additional styles or override existing styles. | `string`          |
+| Prop                         | Description                                                               | Type                              | Default   |
+| ---------------------------- | ------------------------------------------------------------------------- | --------------------------------- | --------- |
+| **`children`**               | Text content of the title.                                                | `React.ReactNode`                 |           |
+| **`fontSize`**               | Custom font size for the title.                                           | `string`                          |           |
+| **`color`**                  | Color for the title.                                                      | `string`                          |           |
+| **`textAlign`**              | Text alignment for the title.                                             | `"left" | "center"`               | `"left"`  |
+| **`fontWidth`**              | Font weight for the title.                                                | `"300" | "400" | "500" | "600" | "700" | "800" | "900"` | `"400"`   |
+| **`customModalTitle`**       | Custom class name to apply additional styles or override existing styles. | `string`                          | `""`      |
+| **`customModalDescription`** | Custom class name to apply additional styles or override existing styles. | `string`                          |           |
+
+---
 
 ## Button Component
 
 ### Props
 
-| Prop                                               | Description                                                                                     | Type              | Default      |
-| -------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------- | ------------ | --------- | ------------- | --------- | ------- | ----------- |
-| **`children`**                                     | Content displayed inside the button.                                                            | `React.ReactNode` |              |
-| **`color`**                                        | Color theme for the button.                                                                     | `"primary"        | "secondary"  | "success" | "error"       | "warning" | "info"` | `"primary"` |
-| **`size`**                                         | Size of the button.                                                                             | `"sm"             | "md"         | "lg"`     | `"md"`        |
-| **`animationOnHover`**                             | Animation applied when hovering over the button.                                                | `"slide-up"       | "slide-down" | "fade"    | "zoom"`       |           |
-| **`disabled`**                                     | Disables the button when set to `true`.                                                         | `boolean`         | `false`      |
-| **`onClose`**                                      | Callback for closing the button (useful if the button is part of a modal or similar component). | `() => void`      |              |
-| **`startIcon`**                                    | Icon displayed at the start of the button.                                                      | `React.ReactNode` |              |
-| **`endIcon`**                                      | Icon displayed at the end of the button.                                                        | `React.ReactNode` |              |
-| **`loading`**                                      | Shows a loading spinner when `true`.                                                            | `boolean`         | `false`      |
-| **`variant`**                                      | Variant style of the button.                                                                    | `"contained"      | "outline"    | "text"`   | `"contained"` |
-| **`customModalCancelButton`**                      | Custom class name to apply additional styles or override existing styles.                       | `string`          | `""`         |
-| **`customModalSuccessButton`**                     | Custom class name to apply additional styles or override existing styles.                       | `string`          |
-| **`primary,secondary,error,success,warning,info`** | Custom class name to apply additional styles or override existing styles.                       | `string`          |
-| **`btn-sm,btn-md,btn-lg`**                         | Custom class name to apply additional styles or override existing styles.                       | `string`          |
+| Prop                                               | Description                                                                                     | Type                              | Default      |
+| -------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------- | ------------ |
+| **`children`**                                     | Content displayed inside the button.                                                            | `React.ReactNode`                 |              |
+| **`color`**                                        | Color theme for the button.                                                                     | `"primary" | "secondary" | "success" | "error" | "warning" | "info"` | `"primary"` |
+| **`size`**                                         | Size of the button.                                                                             | `"sm" | "md" | "lg"`                      | `"md"`        |
+| **`animationOnHover`**                             | Animation applied when hovering over the button.                                                | `"slide-up" | "slide-down" | "fade" | "zoom"` |              |
+| **`disabled`**                                     | Disables the button when set to `true`.                                                         | `boolean`                         | `false`      |
+| **`onClose`**                                      | Callback for closing the button (useful if the button is part of a modal or similar component). | `() => void`                      |              |
+| **`startIcon`**                                    | Icon displayed at the start of the button.                                                      | `React.ReactNode`                 |              |
+| **`endIcon`**                                      | Icon displayed at the end of the button.                                                        | `React.ReactNode`                 |              |
+| **`loading`**                                      | Shows a loading spinner when `true`.                                                            | `boolean`                         | `false`      |
+| **`variant`**                                      | Variant style of the button.                                                                    | `"contained" | "outline" | "text"`     | `"contained"` |
+| **`customModalCancelButton`**                      | Custom class name to apply additional styles or override existing styles.                       | `string`                          | `""`         |
+| **`customModalSuccessButton`**                     | Custom class name to apply additional styles or override existing styles.                       | `string`                          |              |
+| **`primary,secondary,error,success,warning,info`** | Custom class name to apply additional styles or override existing styles.                       | `string`                          |              |
+| **`btn-sm,btn-md,btn-lg`**                         | Custom class name to apply additional styles or override existing styles.                       | `string`                          |              |
 
 ## Divider Component
 
