@@ -1,0 +1,61 @@
+{
+  "name": "react-beautiful-modal",
+  "version": "1.0.0",
+  "description": "React beautiful modal",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reactjs/react-modal.git"
+  },
+  "homepage": "https://github.com/reactjs/react-modal",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "keywords": [
+    "react",
+    "component"
+  ],
+  "author": "saimundev",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tslib": "^2.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "rollup": "^4.24.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^5.6.3"
+  },
+  "tags": [
+    "react-modal",
+    "modal",
+    "dialog",
+    "react-beautiful-modal",
+    "react-responsive-modal",
+    "react-component",
+    "alert",
+    "react"
+  ],
+  "keywords": [
+    "react-modal",
+    "modal",
+    "dialog",
+    "react-beautiful-modal",
+    "react-responsive-modal",
+    "react-component",
+    "alert",
+    "react"
+  ]
+}
