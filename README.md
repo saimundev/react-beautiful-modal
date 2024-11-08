@@ -25,9 +25,9 @@ A lightweight, customizable modal component for web applications. Easy to integr
 
 `pnpm add react-beautiful-modals`
 
-## 2. Demo
+## 2. Live Demo
 
-[React-beautiful-modal](https://react-beautiful-modal.vercel.app/doc/installation)
+[React-beautiful-modal](https://react-beautiful-modal.vercel.app/doc/usage)
 
 ## 3. Simple usage
 
@@ -83,6 +83,10 @@ const App = () => {
 
 export default App;
 ```
+
+## Read Documentation
+
+[React-beautiful-modal](https://react-beautiful-modal.vercel.app/doc/installation)
 
 # Props
 
